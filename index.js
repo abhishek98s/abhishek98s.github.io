@@ -14,9 +14,10 @@ function next() {
     if (i < img.length){
     var images = document.getElementById("slide");
     console.log(document.getElementById("slide").src = img[i]); 
-    } else 
+    } else {
     i = 0;
     console.log(document.getElementById("slide").src = img[i]); 
+    }    
 }
 
 function previous(){
