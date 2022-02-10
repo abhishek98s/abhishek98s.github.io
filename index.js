@@ -6,6 +6,7 @@ var img = [
 "One punch man.jpg",
 "Tokyo ghoul.jpg"
 ];
+var time = 3000;
 
 
 
@@ -17,7 +18,7 @@ function next() {
     } else {
     i = 0;
     console.log(document.getElementById("slide").src = img[i]); 
-    }    
+    }
 }
 
 function previous(){
@@ -28,4 +29,18 @@ function previous(){
     var images = document.getElementById("slide");
     console.log(document.getElementById("slide").src = img[i]); 
 }
+
+function changeImg(){
+    console.log(document.getElementById("slide").src = img[i]); 
+    if (i < img.length-1){
+        i++;
+    } else{
+        i = 0;
+    }
+
+    setTimeout("changeImg()", time);
+}
+
+document.onload =changeImg();
+
 
