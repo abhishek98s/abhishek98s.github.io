@@ -16,6 +16,7 @@ function next() {
     console.log(document.getElementById("slide").src = img[i]); 
     } else 
     i = 0;
+    console.log(document.getElementById("slide").src = img[i]); 
 }
 
 function previous(){
