@@ -6,7 +6,7 @@ var img = [
 "One punch man.jpg",
 "Tokyo ghoul.jpg"
 ];
-var time = 3000;
+var time = 5000;
 
 
 
