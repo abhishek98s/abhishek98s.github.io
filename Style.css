@@ -1,7 +1,7 @@
 .header{
     display: grid;
     grid-template-columns: 2fr 0.2fr 0.02fr auto;
-    grid-template-rows: 38px;
+    
 }
 
 li a{
@@ -29,12 +29,50 @@ ul{
     float: left;
 }
 
+.image-body{
+    display: flex;
+}
+
 .heading{
     color: white;
 }
 
 .slide_show{
-    height: 550px;
+    height: 550px; 
     width: 920px;
+}
+
+.bg-color{
+    background-color: rgb(49, 49, 49);
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 0 20px 20px 0;
+    padding-right: 12px;
+}
+
+.fa-solid{
+    color: wheat;
+}
+
+.input-bg{
+    border: 1px solid rgb(49, 49, 49);
+    border-radius: 20px 0 0 20px;
+    background-color: rgb(49, 49, 49);
+    padding-left: 12px;
+}
+
+.button-pre{
+    position: relative;
+    right: 925px; 
+    top: -275px;  
+}
+
+.button-nex{
+    position: relative;
+    right: 52px;
+    top: -275px;
+}
+
+.img-slideshow{
+    display: block;
 }
 
