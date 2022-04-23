@@ -3,14 +3,15 @@
 <html>
 <head>
  <title>Anime tv</title>
+ <script src="https://kit.fontawesome.com/5e13bde540.js" crossorigin="anonymous"></script>
 </head>
-<link rel="stylesheet" href="Style.css" >
+<link rel="stylesheet" href="style.css" >
 <body style="background-color:black ; ">
 <div class="header">
-    <img src="image\logo.png">
-    <input type="text" placeholder="Search list">
-    <button>
-    <img class="search-icon" src="image\search-icon.png"> 
+    <img src="image\logo.PNG">
+    <input class="input-bg" type="text" placeholder="Enter anime name">
+    <button class="bg-color">
+        <i class="fa-solid fa-magnifying-glass"></i>
     </button>  
     <ul>
         <li><a href="#">Login</a></li>
@@ -20,9 +21,10 @@
 <hr>
 <div>
 <h1 class="heading">Popular Anime in Airing</h1>
+<div class="img-slideshow">
 <img id="slide" class="slide_show" src="slide image\Black Clover.png">
-<span><button onclick="previous()" >Previous </button></span>
-<spam><button onclick="next()" > Next </button></span>
+<span><button class="button-pre button" onclick="previous()" ><i class="fa-solid fa-angle-left"></i> </button></span>
+<spam><button class="button-nex button"onclick="next()" > <i class="fa-solid fa-angle-right"></i> </button></span>
 </div>
 <div class="image-body">
     <font color="white">
