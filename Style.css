@@ -1,3 +1,7 @@
+*{
+    color: white;
+}
+
 .header{
     display: grid;
     grid-template-columns: 2fr 0.2fr 0.02fr auto;
@@ -24,13 +28,13 @@ ul{
 .imge{
     height: 450px;
     width: 200px;
-    margin: 0 5px 0 5px;
-    justify-content: space-evenly;
-    float: left;
+    margin: 0 40px -50px 40px ;  
 }
 
 .image-body{
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;   
 }
 
 .heading{
@@ -64,15 +68,41 @@ ul{
     position: relative;
     right: 925px; 
     top: -275px;  
+    height: 70px;
+    width: 40px;
+    filter: opacity(30%);
 }
 
 .button-nex{
     position: relative;
-    right: 52px;
+    right: 86px;
     top: -275px;
+    height: 70px;
+    width: 40px;
+    filter: opacity(30%);
 }
 
 .img-slideshow{
     display: block;
+}
+
+.fa-solid{
+    color:black;
+}
+
+.fa-magnifying-glass{
+    color: wheat;
+}
+
+*:focus {
+    outline: none;
+}
+
+.input-bg{
+    color: white;
+}
+
+.heading{
+    margin: 0 0 4px 0;
 }
 
