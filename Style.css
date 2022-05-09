@@ -28,7 +28,14 @@ ul{
 .imge{
     height: 450px;
     width: 200px;
-    margin: 0 40px -50px 40px ;  
+    margin: 0 40px -50px 40px ; 
+}
+
+.imge :hover{
+    transform: translateY(-10px);
+    border: 0px solid white;
+    border-radius: 5px;
+    transition-duration: 0.5s;
 }
 
 .image-body{
@@ -106,3 +113,24 @@ ul{
     margin: 0 0 4px 0;
 }
 
+@media only screen and (max-width: 400px) {
+    .button-pre{
+        position: relative;
+        right: 925px; 
+        top: -275px;  
+        height: 70px;
+        width: 40px;
+        filter: opacity(30%);
+    }
+    
+    .button-nex{
+        position: relative;
+        right: 86px;
+        top: -275px;
+        height: 70px;
+        width: 40px;
+        filter: opacity(30%);
+    }
+    
+   
+}
