@@ -1,5 +1,4 @@
 window.addEventListener('load', () => {
-
 var i = 0;
 var img = [
 "Black Clover.png",
@@ -8,11 +7,10 @@ var img = [
 "One punch man.jpg",
 "Tokyo ghoul.jpg"
 ];
-var time = 5000;
+var time = 3000;
 
 
-
-function next() {
+window.next = function() {
     i += 1;
     if (i < img.length){
     var images = document.getElementById("slide");
@@ -23,7 +21,7 @@ function next() {
     }
 }
 
-function previous(){
+window.previous = function() { 
     i -= 1;
     if (i < 0){
         i = img.length - 1;
@@ -32,17 +30,16 @@ function previous(){
     console.log(document.getElementById("slide").src = img[i]); 
 }
 
-function changeImg(){
+window.changeImg = function(){
     console.log(document.getElementById("slide").src = img[i]); 
     if (i < img.length-1){
         i++;
     } else{
         i = 0;
     }
-
-    setTimeout(changeImg(), time);
 }
 
-document.onload =changeImg();
+setInterval(changeImg, time);
+document.onload = changeImg();
 });
 
