@@ -1,3 +1,5 @@
+window.addEventListener('load', () => {
+
 var i = 0;
 var img = [
 "Black Clover.png",
@@ -38,9 +40,9 @@ function changeImg(){
         i = 0;
     }
 
-    setTimeout("changeImg()", time);
+    setTimeout(changeImg(), time);
 }
 
 document.onload =changeImg();
-
+});
 
