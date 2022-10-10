@@ -72,25 +72,26 @@ ul{
 }
 
 .button-pre{
-    position: relative;
-    right: 925px; 
-    top: -275px;  
+    position: absolute;
+    top: 45%;
+    left: 0;
     height: 70px;
     width: 40px;
     filter: opacity(30%);
 }
 
 .button-nex{
-    position: relative;
-    right: 86px;
-    top: -275px;
+    position: absolute;
+    top: 45%;
+    right: 0;
     height: 70px;
     width: 40px;
     filter: opacity(30%);
 }
 
 .img-slideshow{
-    display: block;
+    position: relative;
+    width: 920px;
 }
 
 .fa-solid{
