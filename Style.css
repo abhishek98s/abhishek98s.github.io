@@ -41,7 +41,7 @@ ul{
 .image-body{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;   
+    justify-content: space-evenly;   
 }
 
 .heading{
